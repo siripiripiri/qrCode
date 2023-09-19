@@ -2,14 +2,29 @@
   font-size: 16px;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
 }
 
 body {
+  padding: 2rem;
   margin: 0;
   font-family: 'Whyte Inktrap', sans-serif;
   background-color: #a4a5c1;
+}
+
+head{
+  display: flex;
+  color: rgb(255, 255, 255);
+  padding-left: 1rem;
+  background-color: #a4a5c1;
+  border-radius: 1rem;
+  width:100%;
+}
+
+.logoTitle{
+  font-size: 1.7rem;
+  font-weight: 500;
 }
 
 
@@ -20,7 +35,6 @@ body {
   background-color: #ffffff;
   border-radius: 0.5rem;
   box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
-
 }
 
 .app-title {
@@ -38,7 +52,6 @@ body {
   color: #908686;
   width: 3rem;
   font-size: 1rem;
-
 }
 
 .input-field {
@@ -64,24 +77,9 @@ body {
   box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.headerStyle{
-  display: flex;
-  color: rgb(255, 255, 255);
 
-}
-.logo{
-  width: 1.6rem;
-  height: 1.6rem;
-  margin-right: 0.5rem;
-  fill:rgb(255, 255, 255);
-  align-self: center;
-}
-.logoTitle{
-  font-size: 1.3rem;
-  padding-top: 0.6rem;
-}
 .download-button{
-  width:10rem;
+  width:12rem;
   background:#a4a5c1;
   color:#ffffff;
   border-style: none;
@@ -96,4 +94,13 @@ body {
 .download-button:hover{
   background: #5d5d69;
   transition: 0.6s ease;
+}
+
+.colorInput{
+  background: none;
+  cursor: pointer;
+}
+.blcLogo{
+  width: 3rem;
+  height: 3.5rem;
 }
