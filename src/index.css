@@ -29,13 +29,9 @@ head{
 }
 
 .logoTitle{
-  font-size: 1.5rem;
   font-weight: 500;
 }
-.blcLogo{
-  width: 3rem;
-  height: 3.5rem;
-}
+
 .app-container {
   text-align: center;
   margin: 3rem auto;
@@ -47,7 +43,6 @@ head{
 
 .app-title {
   color: #565656;
-  margin-bottom: 1.2rem;
 }
 
 .input-container {
@@ -71,6 +66,7 @@ head{
   font-family: "poppins";
   color:#85858c;
   transition: .9s ease;
+  overflow: hidden;
 }
 .input-field:hover{
   background: #626262;
@@ -107,4 +103,36 @@ head{
 .colorInput{
   background: none;
   cursor: pointer;
+}
+
+
+@media only screen and (min-width: 382px){
+  .logoTitle{
+    font-size: 1.5rem;
+  }
+  .blcLogo{
+    width: 3rem;
+    height: 3.5rem;
+  }
+
+  .app-title {
+    margin-bottom: 1.2rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 382px){
+  .logoTitle{
+    font-size: 1.2rem;
+  }
+  .blcLogo{
+    width: 2rem;
+    height: 2.3rem;
+  }
+  .app-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
 }
