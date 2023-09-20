@@ -125,10 +125,14 @@ header{
   .logoTitle{
     font-size: 1.2rem;
     max-height: 2.3rem;
+    padding-top: 0.5rem;
+    margin-top: 0;
   }
   .blcLogo{
     width: 2rem;
-    max-height: 2.3rem;
+    height: 2rem;
+    padding-top: 0;
+    margin-top: 0;
   }
   .app-title {
     font-size: 1.4rem;
