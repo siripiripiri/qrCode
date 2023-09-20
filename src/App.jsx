@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-      <head>
+      <header>
       <svg className='blcLogo' viewBox="0 0 1526 1526" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M763.523 894.468C908.804 894.468 1026.58 835.818 1026.58 763.468C1026.58 691.119 908.804 632.468 763.523 632.468C618.242 632.468 500.469 691.119 500.469 763.468C500.469 835.818 618.242 894.468 763.523 894.468Z" stroke="#ffffff" stroke-width="49" stroke-miterlimit="31.17"/>
 <path d="M763.522 871.235C829.446 871.235 882.888 817.792 882.888 751.868C882.888 685.944 829.446 632.501 763.522 632.501C697.597 632.501 644.155 685.944 644.155 751.868C644.155 817.792 697.597 871.235 763.522 871.235Z" stroke="#ffffff" stroke-width="49" stroke-miterlimit="31.17"/>
@@ -68,7 +68,7 @@ function App() {
 </svg>
 
         <p className="logoTitle">Bright Lights Co. presents</p>
-      </head>
+      </header>
       <div className="app-container">
         <h1 className='app-title'>QR Code Generator</h1>
         <div className="input-container">

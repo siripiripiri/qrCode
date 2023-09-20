@@ -20,11 +20,10 @@ body {
   background-color: #a4a5c1;
 }
 
-head{
+header{
   display: flex;
   color: rgb(255, 255, 255);
   background-color: #a4a5c1;
-  border-radius: 1rem;
   width:100vw;
 }
 
@@ -125,10 +124,11 @@ head{
 @media only screen and (max-width: 382px){
   .logoTitle{
     font-size: 1.2rem;
+    max-height: 2.3rem;
   }
   .blcLogo{
     width: 2rem;
-    height: 2.3rem;
+    max-height: 2.3rem;
   }
   .app-title {
     font-size: 1.4rem;
